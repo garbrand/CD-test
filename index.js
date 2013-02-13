@@ -6,7 +6,7 @@ var ports   = seaport.connect('localhost', 7070);
 var port    = ports.register('app@' + version);
 
 var server = http.createServer( function(request, response) {
-	response.end("Hello World from port " + port);
+	response.end("App version " + version + " from port " + port);
 } );
 
 server.listen(port);
