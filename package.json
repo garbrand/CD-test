@@ -1,0 +1,13 @@
+{
+  "private": "true",
+  "name": "app",
+  "version": "0.0.1",
+  "description": "Test app to play with fleet and seaport",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
