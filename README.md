@@ -2,6 +2,8 @@
 
 Playing around with `fleet` and `seaport`.
 
+## Getting started:
+
 You'll need the following folder structure:
 
 	root
@@ -37,3 +39,7 @@ You can now list the processes running on drones by:
 List registered processes by running:
 
 	seaport show localhost:7070
+	
+## Tips:
+
+Don't forget to read the nice help, for instance `fleet help spawn`.
