@@ -10,7 +10,6 @@ Start up a haibu server (it will claim port 9002 by default):
 
 	haibu
 
-
 ## Preparing your app
 
 Haibu reads `package.json` for some configuration of your app. The following attributes are required to be present in the root package.json:
@@ -62,6 +61,7 @@ Alternatively, if you do not want to pipe the output to curl but want to keep th
 	tar -czf app.tgz .
 	curl -XPOST -sSNT app.tgz localhost:9002/deploy/username/appname
 	
+If the deploy was successfull, a drone will be spawned and the process will be started. The post should reply with a json giving you all the information of the running process, including `port`, `pid` and `env`.
 
 # Notes and tips
 
